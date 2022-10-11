@@ -23,13 +23,15 @@ def ratio_of_numbers(input_array):
         else:
             dictionary_counts["negative_count"] += 1
 
-    # use round for precision six decimal places
-    print(round(dictionary_counts["positive_count"]/len(input_array), 6))
+    # use round() for precision six decimal places
+    print(round(dictionary_counts["positive_count"] / len(input_array), 6))
     print(round(dictionary_counts["negative_count"] / len(input_array), 6))
     print(round(dictionary_counts["zero_count"] / len(input_array), 6))
 
+    #return empty string so the function does not return None
     return ""
 
 if __name__ == '__main__':
+    #two array input as examples
     print(ratio_of_numbers([1, 1, 0, -1, -1]))
     print(ratio_of_numbers([-4, 3, -9, 0, 4, 1]))
