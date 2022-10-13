@@ -21,9 +21,14 @@ def lonelyinteger(array):
     return result
 
 
-array = [1,3,4,4,3,1,6]
+#example input
 
-print(lonelyinteger(array))
+def main():
+    array = [1,3,4,4,3,1,6]
+    print(lonelyinteger(array))
+    
+if __name__ == "__main__":
+    main()
 
 '''
 the trick is to use ^ (caret) operator which will cancel out all the even number of same integers and the remaining "lonely integer"
