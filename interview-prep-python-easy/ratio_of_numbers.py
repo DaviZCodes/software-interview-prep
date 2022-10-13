@@ -31,7 +31,10 @@ def ratio_of_numbers(input_array):
     #return empty string so the function does not return None
     return ""
 
-if __name__ == '__main__':
-    #two array input as examples
+def main():
     print(ratio_of_numbers([1, 1, 0, -1, -1]))
     print(ratio_of_numbers([-4, 3, -9, 0, 4, 1]))
+
+if __name__ == '__main__':
+    #two array input as examples
+    main()
