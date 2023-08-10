@@ -6,6 +6,9 @@ I hope you can learn from my solutions. Feel free to contact me if you find a mo
 ##### Topics
 + Arrays
 + Loops
++ Hash Maps
++ Linked Lists
++ Trees
 + Sort
 + Two Pointers
 + Data Structures
