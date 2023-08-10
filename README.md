@@ -1,9 +1,6 @@
 # Software Interview Prep
 ### DaviZCodes
 
-### NOTE: None of the questions are taken from my personal interviews experiences. 
-### I will never disclose the solutions of my real interviews. These are all practice questions obtained from public sites like [HackerRank](https://www.hackerrank.com/dashboard) and [LeetCode](https://leetcode.com))
-
 I hope you can learn from my solutions. Feel free to contact me if you find a more optimized solution. 
 
 ##### Topics
