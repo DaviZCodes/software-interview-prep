@@ -20,7 +20,7 @@ class Solution(object):
       
       return False
 
-      '''
+      """
       #sort solution, runtime: o(nlogn) memory: o(1) 
       nums.sort()
 
@@ -29,4 +29,4 @@ class Solution(object):
               return True
 
       return False
-      '''
+      """
