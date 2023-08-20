@@ -4,7 +4,7 @@ class Solution:
         nums.sort()
 
         for index, value in enumerate(nums):
-            if index > 0 and value == nums[index - 1]:
+            if index > 0 and value == nums[index - 1]: #index > 0 because first one is never duplicate
                 continue # don't reuse duplicate value
             
             left, right = i + 1, len(nums) - 1
