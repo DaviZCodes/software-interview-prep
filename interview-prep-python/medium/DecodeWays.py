@@ -8,7 +8,9 @@ class Solution:
             if s[i] == "0": # if the character starts with 0 e.g. 06, it is invalid
                 return 0
             
-            res = dfs(i + 1)
+            # we want to recursively call the next index because the previous
+            # one might be invalid
+            res = dfs(i + 1) 
 
             if (i + 1) < len(s) and (s[i] == "1" or s[i] == "2" and s[i + 1] in "0123456"): 
                 '''
@@ -18,6 +20,9 @@ class Solution:
                 second character. But if the first character is 2, then 
                 the second character must be within 0-6 because the max
                 character is 26, which is z.
+
+                We add dfs(i + 2) because we want to skip over the 
+                2 characters which we decoded.
                 '''
                 res += dfs(i + 2)
 
