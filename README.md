@@ -13,5 +13,7 @@ I hope you can learn from my solutions. Feel free to contact me if you find a mo
 + Two Pointers
 + Data Structures
 + Algorithms
-+ Runtime/Memory Optimization 
++ Runtime/Memory Optimization
++ Dynamic Programming
++ BFS/DFS/Graph problems
 
