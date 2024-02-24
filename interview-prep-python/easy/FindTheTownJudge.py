@@ -10,7 +10,7 @@ class Solution:
             in_degree[trust[i][1]] += 1
         
         for i in range(1, n + 1):
-            if in_degree[i] == n - 1 and out_degree[i] == 0:
+            if in_degree[i] == n - 1 and out_degree[i] == 0: # person is trusted by everyone (everyone minus themselves) and the person does not trust anyone
                 return i
         
         return -1
