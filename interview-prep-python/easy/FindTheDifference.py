@@ -1,6 +1,6 @@
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
-        # best solution
+        # better solution
         sum_s = 0
         sum_t = 0
 
