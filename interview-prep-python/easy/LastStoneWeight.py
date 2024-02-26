@@ -6,7 +6,6 @@ class Solution:
         # we negate everything because heapq.heapify() creates a min heap
         stones = [-s for s in stones] 
         heapq.heapify(stones)
-        print(stones)
 
         while len(stones) > 1:
             first, second = heapq.heappop(stones), heapq.heappop(stones)
