@@ -11,6 +11,7 @@ I hope you can learn from my solutions. Feel free to contact me if you find a mo
 + Trees
 + Sort
 + Two Pointers
++ Sliding Window
 + Data Structures
 + Algorithms
 + Runtime/Memory Optimization
